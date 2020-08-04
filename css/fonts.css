@@ -1,0 +1,13 @@
+
+
+/* @font-face */ 
+
+@font-face{
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.ttf';
+}
+
+@font-face{
+font-family: "myriad-arabic";
+src: '../fonts/ArbFonts.com-(4)/ArbFONTS-MyriadArabic-Regular.otf';
+}

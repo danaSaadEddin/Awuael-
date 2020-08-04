@@ -1,0 +1,45 @@
+.site-main{
+  background-color: #fff;
+  background-image: url(../../img/body-bg.png);
+  overflow-x: hidden;
+}
+/* start banner */
+.parallax {   
+  background-image: url('../../img/time-alarm-clock-alarm-clock-100733.jpg');
+ 
+  /* Create the parallax scrolling effect */
+  background-position: bottom;
+}
+.site-banner{
+    position: relative;
+}
+.site-banner .title-text{
+      font-size: 3rem;
+      position: absolute;
+      top: 40%;
+      left: 5%;
+      color: #fff;
+  }
+  .site-banner .container h1{
+      color: #1e252e;
+      font-size: 2.2rem;
+  }
+/* end banner */
+.founders-card .card{
+  width: 30rem;
+}
+.cd-timeline__content:hover{
+  transform: scale(1.02);
+  cursor: pointer;
+  transition: all ease-in .5s;
+  background:linear-gradient(90deg, #FFBA01 0%, #8d714a 100%);
+  color: #fff;
+}
+.cd-timeline__content > p:hover, .cd-timeline__content>h2:hover{
+  color: #fff;
+}
+
+
+
+/* end-founder-section */
+

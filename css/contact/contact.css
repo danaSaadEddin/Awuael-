@@ -1,0 +1,41 @@
+
+.login-page{
+    position: relative;
+    margin: 0;
+    height: 100vh;
+   
+    background-image: url(../../img/body-bg.png);
+   
+  }
+  .login-wrapper{
+    position: absolute;
+    right: 33%;
+  border-radius: 10px;
+    margin: 2% auto;
+    height: 70%;
+    width: 35%;
+    background-color: var(--white);
+  }
+  .login{
+  
+    flex-direction: column;
+  }
+  .login h2 , .login h4{
+    color: var(--primary-color);
+  }
+  .login input , .login textarea{
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);}
+
+  .login button{
+    margin: 0 auto;
+  }
+  
+  .login a {
+   color: var(--primary-color);
+  }
+  .login a:hover {
+  text-decoration: none;
+  }

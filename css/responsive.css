@@ -1,0 +1,307 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 376px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .site-main .subscribe-us-area .subscribe .subscribe-title,
+    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .site-main .services-area,
+    .site-main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 31px;
+    }
+    .site-main .site-banner .site-title h5 , .site-main .site-banner .site-title p{
+        width: 100%;
+    }
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
+    .site-main > .services-area .services{
+        width: 13rem;
+    }
+    .site-main .about-area .about-title .paragraph {
+        width: 100%;
+    }
+    .site-main .about-area .about-title h1 {
+        font-size: 2.5rem;
+    }
+   
+
+}
+
+
+/* if the viewport is equal to 792px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-area .about-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .brand-area .experience-area .years-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .site-main .brand-area .experience-area .bg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .site-main .brand-area .experience-area .call-area{
+        padding-left: 3%;
+    }
+    .site-main .site-banner {
+        background: none;
+    }
+       
+
+    .site-main .project-area .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-area .about-title p{
+        padding: 0%;
+    }
+
+    /* .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    } */
+    @media only screen and (max-width: 768px) {
+        .header_area .main-menu .navbar .navbar-brand{
+            padding: 0px;
+        }
+        .platform-info{
+            font-size: 10px;
+        }
+        .container-fluid .numbers {
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            margin-top: -5vmin;
+        }
+        .rect p {
+            padding: 40% 0%;
+        }
+    
+        .container-fluid .numbers .rect {
+            position: relative;
+            margin-left: 1%;
+            background: #fff;
+            padding: 5px 3px;
+            border-radius: 20px;
+            box-shadow: 5px 5px 15px #333;
+            margin-bottom: 2%;
+            height: 100px;
+            width: 100px;
+           
+        }
+    
+        .section-2 .cover .caption h1 {
+            font-weight: normal;
+            font-size: 10px;
+            padding: 6% 1% 2% 1%;
+        
+        }
+        
+    .section-2 .cover .caption p {
+        padding: 8% 1% 2% 1%;
+        font-size: 10px;
+    }
+    button.center{
+        padding: 3%;
+        font-size: 14px;
+        margin: 3% 40%;
+    }
+    
+    }
+    
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .site-main .brand-area,
+    .site-main .services-area .services-title,
+    .site-main .about-area{
+        padding: 3% 4%;
+    }
+
+
+}
+
+/* --------------------------------------------journey-1---------------------------------- */
+@media only screen and (max-width: 376px){
+/* .section-1{
+    overflow-y: hidden;
+}    */
+.site-main .site-banner.home{
+    background-image: none;
+}
+.section-1 .col-md-6 .pray {
+    margin: 0px;
+    padding: 0px;
+}
+
+.section-1 .col-md-6 img {
+    width: 100%;
+    height: 120%;
+    border-radius: 7px;
+    opacity: 0.8;
+}
+
+.section-1 .col-md-5 .panel {
+    top: 100px;
+    padding: 3px;
+    padding-bottom: 10px;
+    opacity: 1;
+    left: 0px;
+    position: relative;
+    transform: translateY(-30px);
+    transition: 1s all ease;    
+}
+.section-1 .col-md-5 .panel.three {
+    top: 20px;
+    padding: 3px;
+    padding-bottom: 10px;
+   opacity: 1;
+     left: 0px;
+    transform: translateY(0px);
+    transition: 1s all ease;    
+}
+.section-1 .col-md-5 .panel h2{
+    font-size: 18px;
+}
+.section-1 .col-md-5 .panel p{
+    font-size: 12px;
+}
+
+.section-1 .col-md-5 .panel h2 {
+    padding-bottom: 10px;
+    color: #1e252e;
+}
+
+
+/* timeline-section-1-end */
+/* contact-page-start */
+.login-wrapper{
+    right: 11%;
+    margin: 1% auto;
+    height: 75%;
+    width: 75%;
+  }
+/* contact-page-end */
+/* white space */
+.container.white-space{
+    height: 50vh;
+    width: 100vh;
+}
+
+.site-banner .container h1{
+    color: #1e252e;
+    font-size: 2rem;
+}
+.footer-area .site-logo img{
+    height: 100px;
+    width: 120px;
+    display: none;
+}
+
+
+
+
+}
+@media only screen and (max-width: 768px){
+    .site-main .site-banner.home{
+        background-image: none;
+    }
+   
+    .section-1 .col-md-6 .pray {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .section-1 .col-md-6 img {
+        width: 100%;
+        height: 120%;
+        border-radius: 7px;
+        opacity: 0.8;
+    }
+    
+    .section-1 .col-md-5 .panel {
+        top: 100px;
+        padding: 3px;
+        padding-bottom: 10px;
+        opacity: 1;
+        left: 0px;
+        position: relative;
+        transform: translateY(-30px);
+        transition: 1s all ease;    
+    }
+    .section-1 .col-md-5 .panel.three {
+        top: 20px;
+        padding: 3px;
+        padding-bottom: 10px;
+       opacity: 1;
+         left: 0px;
+        transform: translateY(0px);
+        transition: 1s all ease;    
+    }
+    .section-1 .col-md-5 .panel h2{
+        font-size: 22px;
+    }
+    .section-1 .col-md-5 .panel p{
+        font-size: 13px;
+    }
+    
+    .section-1 .col-md-5 .panel h2 {
+        padding-bottom: 10px;
+        color: #1e252e;
+    }
+    
+    /* contact-page-start */
+.login-wrapper{
+    right: 11%;
+    margin: 1% auto;
+    height: 70%;
+    width: 75%;
+  }
+/* contact-page-end */
+    
+    /* timeline-section-1-end */
+    /* white space */
+    .container.white-space{
+        height: 50vh;
+        width: 100vh;
+    }
+    
+    .site-banner .container h1{
+        color: #1e252e;
+        font-size: 2rem;
+    }
+
+    /* journey2 */
+    .story.desc > p{
+        width: 100%;
+    }
+    .founders-card .card{
+        width: 18rem;
+    }
+}

@@ -1,0 +1,44 @@
+.row-galery > *{
+    padding: 20% 2%;
+    margin: 1%;
+}
+.first-work{
+    background-image: url(./assests/person-holding-cup-of-coffee-3622632.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.work-info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--primary-color);
+    opacity: .9;  
+    transform: translate(30rem , -33rem);
+    border-radius: 50%;
+    color: #fff;
+    transition: all .8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+}
+.first-work:hover .work-info{
+transform: translate(0,0);
+border-radius: initial;
+}
+.first-work.one{
+    background-image: url(../../img/21074.jpg);
+}
+.first-work.three{
+    background-image: url(../../img/21074.jpg);
+}
+.first-work.four{
+    background-image: url(../../img/21074.jpg);
+    background-position: center;
+}
+
+.first-work.six{
+    background-image: url(../../img/21074.jpg);
+}
