@@ -20,6 +20,44 @@
 //     navbarFixed();
 
 // });
+
+
+
+
+
+
+
+//platform
+// let platformPage = document.querySelector('.platform-page');
+// let holding = document.querySelector('.holding');
+// let company = document.querySelector('.company');
+// let holdingBtn = document.querySelector('.holdingBtn');
+// let companyBtn = document.querySelector('.companyBtn');
+// holdingBtn.addEventListener('click', function () {
+//     console.log('clicked');
+//     holding.classList.remove('d-none');
+//     holding.classList.add('d-block');
+//     platformPage.classList.remove('active');
+
+// });
+// companyBtn.addEventListener('click', function () {
+//     console.log('clicked');
+//     company.classList.remove('d-none');
+//     company.classList.add('d-block');
+//     platformPage.classList.remove('active');
+
+// });
+
+
+// click to scroll top
+$('.move-up span').click(function () {
+    $('html, body').animate({
+        scrollTop: 0
+    }, 1000);
+});
+
+
+
 // --------------------smooth anchor scroll-----------------------
 $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
@@ -29,9 +67,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 500);
 });
 
-
-
-// journey3
+// journey2
 let arrowLeft = document.querySelector('.dr-sami .fa-arrow-circle-left');
 let arrowLeft2 = document.querySelector('.eng-anas .fa-arrow-circle-left');
 let foundersOn = document.querySelector('.founders-on')
@@ -61,23 +97,5 @@ arrowLeft2.addEventListener('click', function () {
     console.log('clicked');
     engAnas.classList.add('active');
     foundersOn.classList.add('active');
-
-});
-
-
-// click to scroll top
-$('.move-up span').click(function () {
-    $('html, body').animate({
-        scrollTop: 0
-    }, 1000);
-});
-
-
-
-$('.navTrigger').click(function () {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
 
 });
