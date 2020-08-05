@@ -4,7 +4,9 @@
 .platform-page{
     display: none;
 }
-
+.platform-page .about-area > p , .platform-page .about-area > h2{
+    width: 75%;
+}
 .card{
     position: relative;
 }
