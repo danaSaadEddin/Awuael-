@@ -32,12 +32,9 @@
   transform: scale(1.02);
   cursor: pointer;
   transition: all ease-in .5s;
-  background:linear-gradient(90deg, #FFBA01 0%, #8d714a 100%);
-  color: #fff;
+  box-shadow: var(--box-shadow);
 }
-.cd-timeline__content > p:hover, .cd-timeline__content>h2:hover{
-  color: #fff;
-}
+
 
 
 

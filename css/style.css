@@ -240,14 +240,16 @@ button.center{
 
 footer.footer-area{
     
-    /* background: url(../img/footer-bg.png) no-repeat; */
+    position: relative;
 }
 
 .row.footer .footer-info{
     padding: 0%;  
     height: 40vh;   
 }
-
+footer.footer-area .social{
+   
+}
 footer.footer-area .social h5{
     font: normal 500 23px/ 30px var(--roboto);
 }
@@ -265,6 +267,14 @@ footer.footer-area .social a:hover > i{
         font-size:22px;
         padding: 3%;
         color: var(--primary-color);
+}
+footer.footer-area .up{
+    position: absolute;
+    box-shadow: var(--box-shadow);
+    right: 6%;
+ bottom: 10%;
+ color: var(--primary-color);
+   z-index: 3;
 }
 
 
