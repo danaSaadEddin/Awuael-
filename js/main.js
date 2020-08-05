@@ -1,52 +1,31 @@
-// $(document).ready(function () {
+$(document).ready(function () {
 
-//     // sticky navigation menu
+    // sticky navigation menu
 
-//     let nav_offset_top = $('.header_area').height() + 50;
+    let nav_offset_top = $('.header_area').height() + 50;
 
-//     function navbarFixed() {
-//         if ($('.header_area').length) {
-//             $(window).scroll(function () {
-//                 let scroll = $(window).scrollTop();
-//                 if (scroll >= nav_offset_top) {
-//                     $('.header_area .main-menu').addClass('navbar_fixed');
-//                 } else {
-//                     $('.header_area .main-menu').removeClass('navbar_fixed');
-//                 }
-//             })
-//         }
-//     }
+    function navbarFixed() {
+        if ($('.header_area').length) {
+            $(window).scroll(function () {
+                let scroll = $(window).scrollTop();
+                if (scroll >= nav_offset_top) {
+                    $('.header_area .main-menu').addClass('navbar_fixed');
+                } else {
+                    $('.header_area .main-menu').removeClass('navbar_fixed');
+                }
+            })
+        }
+    }
 
-//     navbarFixed();
+    navbarFixed();
 
-// });
-
-
+});
 
 
 
 
 
-//platform
-// let platformPage = document.querySelector('.platform-page');
-// let holding = document.querySelector('.holding');
-// let company = document.querySelector('.company');
-// let holdingBtn = document.querySelector('.holdingBtn');
-// let companyBtn = document.querySelector('.companyBtn');
-// holdingBtn.addEventListener('click', function () {
-//     console.log('clicked');
-//     holding.classList.remove('d-none');
-//     holding.classList.add('d-block');
-//     platformPage.classList.remove('active');
 
-// });
-// companyBtn.addEventListener('click', function () {
-//     console.log('clicked');
-//     company.classList.remove('d-none');
-//     company.classList.add('d-block');
-//     platformPage.classList.remove('active');
-
-// });
 
 
 // click to scroll top

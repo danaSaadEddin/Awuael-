@@ -16,16 +16,16 @@
     padding: 0 2rem 0 0rem;
 }
 .header_area .main-menu .navbar .navbar-brand img{
-    height: 100px;
-    width: 130px;
+    height: 80px;
+    width: 100px;
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 20rem ;
+    padding: 1rem 15rem ;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -138,19 +138,7 @@
    margin: 0 3%;
  
 }
-.icon-head .fa{
-	margin: 20px auto;
-	height: 70px;
-	width: 70px;
-	padding: 15px;
-	font-size: 30px;
-    border: 2px solid;
-	border-radius: 50%;
-    color: #8d714a;
-    background: url(../img/svg/002-cruise-ship.svg);
-    background-size: cover;
-    position: center;
-}
+
 
 .services .col-sm-6:hover{
 	transition: all .7s;
@@ -162,9 +150,9 @@
     transform: scale(1.02);
     text-shadow: var(--box-shadow);
 }
-.services .col-sm-6:hover .icon-head .fa {
-	color: #fff;
-	border: 2px solid #fff;
+.services .icon-head .fa > img {
+    height: 60px;
+    width: 60px;
 }
 .services .col-sm-6:hover span{
 	color: #fff;
