@@ -58,9 +58,9 @@
     .site-main .brand-area .experience-area .call-area{
         padding-left: 3%;
     }
-    .site-main .site-banner {
+    /* .site-main .site-banner {
         background: none;
-    }
+    } */
        
 
     .site-main .project-area .button-group button{
@@ -149,14 +149,18 @@
 
 /* --------------------------------------------journey-1---------------------------------- */
 @media only screen and (max-width: 426px){
+
  body{
     overflow-x: hidden;
 } 
 .arabicHomePage{
  overflow-x: hidden;
 }   
-.site-main .site-banner.home{
+/* .site-main .site-banner.home{
     background-image: none;
+} */
+.main{
+    padding-top: 1%;   
 }
 .site-main .site-banner .site-title h5{
     
@@ -234,6 +238,7 @@
 .platform-page .about-area > p , .platform-page .about-area > h2{
     width: 100%;
 }
+
 .footer-area .site-logo img{
     height: 120px;
     width: 150px;
@@ -245,9 +250,7 @@
 
 }
 @media only screen and (max-width: 768px){
-    .site-main .site-banner.home{
-        background-image: none;
-    }
+    
    
     .section-1 .col-md-6 .pray {
         margin: 0px;
@@ -319,5 +322,8 @@
     }
     .founders-card .card{
         width: 18rem;
+    }
+    .platform-targets{
+        margin-bottom: 40%;
     }
 }

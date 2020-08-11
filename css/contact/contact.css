@@ -1,41 +1,44 @@
+.contact{
+  padding: 5%;
+}
+.form-section , .contact-info-section{
+  padding: 5%;
+}
+.section-title h2{
+  font-weight: 600;
+}
+.section-title h2 > span{
+  color: var(--primary-color2);
+}
+.contact-box {
+  position: relative;
+}
 
-.login-page{
-    position: relative;
-    margin: 0;
-    height: 100vh;
-   
-    background-image: url(../../img/body-bg.png);
-   
-  }
-  .login-wrapper{
-    position: absolute;
-    right: 33%;
-  border-radius: 10px;
-    margin: 2% auto;
-    height: 70%;
-    width: 35%;
-    background-color: var(--white);
-  }
-  .login{
-  
-    flex-direction: column;
-  }
-  .login h2 , .login h4{
-    color: var(--primary-color);
-  }
-  .login input , .login textarea{
-    padding: 1%;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: 1px solid var(--primary-color);}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.contact-box li {
+  padding-left: 70px;
+  position: relative;
+}
 
-  .login button{
-    margin: 0 auto;
-  }
-  
-  .login a {
-   color: var(--primary-color);
-  }
-  .login a:hover {
-  text-decoration: none;
-  }
+.contact-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgba(204, 139, 40, 1);
+  background: transparent;
+  font-size: 20px;
+  color: rgba(204, 139, 40, 1);
+  position: absolute;
+  left: 0;
+  text-align: center;
+  line-height: 2.1;
+  top: 4px;
+}
+.contact-text h3 {
+  font-size: 22px;
+  margin-top: 8%;
+}

@@ -11,6 +11,9 @@
 
 
 /* start navigation */ 
+.site-banner.home .header_area .main-menu .nav-item .nav-link{
+    color: #fff;
+}
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 0rem;
@@ -31,13 +34,19 @@
     color: var(--title-color);
 }
 
-.header_area .main-menu .navbar-nav .active a{
+/* .header_area .main-menu .navbar-nav .active a{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
+} */
 
+.site-banner.home .header_area .main-menu .navbar-nav a:hover{
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
 .header_area .main-menu .navbar-nav a:hover{
     background: var(--gradient-color);
     -webkit-background-clip: text;
@@ -53,46 +62,46 @@
 .site-main{
     background-image: url(../img/body-bg.png);
 }
-.site-main .site-banner.home {
-    background: url(../img/svg/svg3.svg) no-repeat;
-    background-position: top right;
-   
-}
 
+.main{
+    height: 100vh;
+    padding-top: 20%;   
+}
+.site-banner.home{
+    background-image: url(/img/0.5x/home@0.5x-100.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
 .site-main .site-banner .site-title h3{
-    padding-top: 5%;
+   
     font-weight: 500;
 }
 
-.site-main .site-banner .site-title h3::after{
-    content: " ";
-    height: 2px;
-    width: 18vw;
-    background: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translateY(-10px);
-}
+
 
 .site-main .site-banner .site-title h1{
     font-size: 4rem;
+    text-align: center;
+}
+.site-main .site-banner .site-title h1 span {
+    color: #fff;
 }
 
-.site-main .site-banner .site-title h5{
+.site-main .site-banner .site-title h5 {
     font-size: 1.5rem;
-    width: 75%;  
+    color: #fff;
+   
 }
-.site-main .site-banner .site-title p{
-    width: 75%;
+
+
+.site-buttons{
+    margin: 5% 40%;
 }
 .site-buttons a {
     transition: ease-in 1s;
 }
 
-.site-main .site-banner .banner-image > img{
-    padding: 7rem 0;
-    width: 90rem;
-}
 
 
 
@@ -247,9 +256,7 @@ footer.footer-area{
     padding: 0%;  
     height: 40vh;   
 }
-footer.footer-area .social{
-   
-}
+
 footer.footer-area .social h5{
     font: normal 500 23px/ 30px var(--roboto);
 }
@@ -270,9 +277,9 @@ footer.footer-area .social a:hover > i{
 }
 footer.footer-area .up{
     position: absolute;
-    box-shadow: var(--box-shadow);
+
     right: 6%;
- bottom: 10%;
+ bottom: 5%;
  color: var(--primary-color);
    z-index: 3;
 }

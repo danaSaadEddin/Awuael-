@@ -18,7 +18,7 @@ body{
 
 :root{
     --primary-color: #8d714a;
-    --primary-color2: #FFBA01;
+    --primary-color2: rgba(204, 139, 40, 1);
     --title-color: #141313;
     --text-color: #777777;  
     --border-color: #201f1f17;  
