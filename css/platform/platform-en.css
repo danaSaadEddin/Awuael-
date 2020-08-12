@@ -15,7 +15,7 @@
     color: var(--primary-color2);
 }
 .holding .col-lg-3 , .company .col-md-5{
-    background: var(--gradient-color);
+    background: var(--primary-color2);
     border-radius: 4px;
     box-shadow: var(--shadow-color);
 }
