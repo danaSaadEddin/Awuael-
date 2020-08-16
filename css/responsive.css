@@ -147,6 +147,17 @@
   .main {
     padding-top: 1%;
   }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .site-main .site-banner .site-title h5 {
+    font-size: 1rem;
+  }
+
   .site-main .site-banner .site-title h5 {
     width: 100%;
   }

@@ -133,12 +133,12 @@
                                 family and its importance in developing societies; and cares in enhancing its social,
                                 cultural, health and economic conditions.
                             </p>
-                            <div class="col-md-12 d-flex py-4">
-                                <div class="col-md-6 text-white">
-                                    <h4 class="text-uppercase">
+                            <div class="row d-flex py-4">
+                                <div class="col-md-6 col-sm-12 text-white">
+                                    <h2 class="text-uppercase text-dark">
                                         <span>Our mission</span>
                     
-                                    </h4>
+                                    </h2>
                                     <div class="paragraph">
                                         <h4 class="title-text">
                                             To work together as a family and creatively towards empowering families.
@@ -148,8 +148,8 @@
                     
                                 </div>
                                 
-                                    <div class="col-md-6 text-white">
-                                      <h2 class="text-uppercase">
+                                    <div class="col-md-6 col-sm-12 text-white">
+                                      <h2 class="text-uppercase text-dark">
                                           <span>Our vision</span>
           
                                       </h2>
@@ -233,16 +233,17 @@
 
     <!--  custom js file  -->
     <!-- <script src="/js/main.js"></script> -->
-    <script>
-        $(document).on('click', 'a[href^="#"]', function (event) {
-            event.preventDefault();
+   
+<script>
+    // --------------------smooth anchor scroll-----------------------
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
 
-            $('html, body').animate({
-                scrollTop: $($.attr(this, 'href')).offset().top
-            }, 500);
-        });
-    </script>
-
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+</script>
 
 </body>
 

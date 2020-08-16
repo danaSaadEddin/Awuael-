@@ -30,13 +30,6 @@
   color: var(--title-color);
 }
 
-/* .header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-} */
-
 .site-banner.home .header_area .main-menu .navbar-nav a:hover {
   background: #000;
   -webkit-background-clip: text;
@@ -58,7 +51,6 @@
 }
 
 .main {
-  height: 100vh;
   padding-top: 5%;
 }
 .site-banner.home {
