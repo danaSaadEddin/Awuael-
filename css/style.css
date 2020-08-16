@@ -1,37 +1,33 @@
-
-/* import fonts from fonts.css file */ 
+/* import fonts from fonts.css file */
 @import url(./fonts.css);
 
-
-/* css variables */ 
+/* css variables */
 @import url(./partials/_variables.css);
 
-/* import global styling */ 
+/* import global styling */
 @import url(./partials/_global.css);
 
-
-/* start navigation */ 
-.site-banner.home .header_area .main-menu .nav-item .nav-link{
-    color: #fff;
+/* start navigation */
+.site-banner.home .header_area .main-menu .nav-item .nav-link {
+  color: #fff;
 }
 
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 0rem;
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 0rem;
 }
-.header_area .main-menu .navbar .navbar-brand img{
-    height: 80px;
-    width: 100px;
-}
-
-.header_area .main-menu .navbar{
-    padding: 1rem 15rem ;
+.header_area .main-menu .navbar .navbar-brand img {
+  height: 80px;
+  width: 100px;
 }
 
-.header_area .main-menu .nav-item .nav-link{
-    
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--title-color);
+.header_area .main-menu .navbar {
+  padding: 1rem 15rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
 }
 
 /* .header_area .main-menu .navbar-nav .active a{
@@ -41,252 +37,207 @@
     background-clip: text;
 } */
 
-.site-banner.home .header_area .main-menu .navbar-nav a:hover{
-    background: #000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.site-banner.home .header_area .main-menu .navbar-nav a:hover {
+  background: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-.header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-   
-}
-
-
-/* end navigation */ 
-
-/* Banner Area */ 
-.site-main{
-    background-image: url(../img/body-bg.png);
+.header_area .main-menu .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.main{
-    height: 100vh;
-    padding-top: 10%;   
-}
-.site-banner.home{
-    background-image: url(/img/0.5x/home@0.5x-100.jpg);
-    background-position: center;
-    background-size: cover;
-    
-}
-.site-main .site-banner .site-title h3{
-   
-    font-weight: 500;
+/* end navigation */
+
+/* Banner Area */
+.site-main {
+  background-image: url(../img/body-bg.png);
 }
 
+.main {
+  height: 100vh;
+  padding-top: 5%;
+}
+.site-banner.home {
+  background-image: url(/img/0.5x/home@0.5x-100.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.site-main .site-banner .site-title h3 {
+  font-weight: 500;
+}
 
-
-.site-main .site-banner .site-title h1{
-    font-size: 4rem;
-    text-align: center;
+.site-main .site-banner .site-title h1 {
+  font-size: 4rem;
+  text-align: center;
 }
 .site-main .site-banner .site-title h1 span {
-    color: #fff;
+  color: #fff;
 }
 
 .site-main .site-banner .site-title h5 {
-    font-size: 1.5rem;
-    color: #fff;
-   
+  font-size: 1.5rem;
+  color: #fff;
 }
 
-
-.site-buttons{
-    margin: 5% 40%;
+.site-buttons {
+  margin: 5% 40%;
 }
 .site-buttons a {
-    transition: ease-in 1s;
+  transition: ease-in 1s;
 }
 
+/* End Banner Area */
 
+/* Services Area */
 
-
-/* End Banner Area */ 
-
-/* Start About Area */ 
-
-.site-main .about-area{
-    padding: 4rem 5rem 8rem 5rem;  
-}
-.about-area .about-title h2 > span{
-    display: block;
-    font: normal bold 49px/ 60px var(--roboto);
-    letter-spacing: 21px;
+.site-main .services-area {
+  padding: 7rem 2rem;
 }
 
-.site-main .about-area .about-title .paragraph{
-    padding: .4rem 0;
-    width: 75%;
+.site-main .services-area .services-title {
+  padding: 0 14rem;
 }
 
-/* End About Area */ 
-
-
-
-/* Services Area */ 
-
-.site-main .services-area{
-    padding: 7rem 2rem;
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
 }
 
-.site-main .services-area .services-title{
-    padding: 0 14rem;
+.site-main .services-area .col-sm-6 {
+  background-color: rgba(248, 252, 253, 0.973);
+  margin: 0 3%;
 }
 
-.site-main .services-area .services-title h1{
-    font-size: 35px;
-}
-
-
-.site-main .services-area .col-sm-6{
-   background-color:  rgba(248, 252, 253, 0.973);
-   margin: 0 3%;
- 
-}
-
-
-.services .col-sm-6:hover{
-	transition: all .7s;
-    background-image: url(../img/time-alarm-clock-alarm-clock-100733.jpg);
-    background-size: cover;
-    background-position: center;
-	box-shadow: 5px 10px 18px #888888;
-    color: #fff;
-    transform: scale(1.02);
-    text-shadow: var(--box-shadow);
+.services .col-sm-6:hover {
+  transition: all 0.7s;
+  background-image: url(../img/time-alarm-clock-alarm-clock-100733.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 5px 10px 18px #888888;
+  color: #fff;
+  transform: scale(1.02);
+  text-shadow: var(--box-shadow);
 }
 .services .icon-head .fa > img {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
-.services .col-sm-6:hover span{
-	color: #fff;
-	
+.services .col-sm-6:hover span {
+  color: #fff;
 }
-.services span{
-	color: #8d714a;
-	transition: 0.5s;
-}
-
-.services h2{
-	padding-bottom: 15px;
+.services span {
+  color: #8d714a;
+  transition: 0.5s;
 }
 
-/* End Services Area */ 
-
-/* Platform Area */ 
-
-
-.services-area.platform{
-    padding: 7rem 0rem;
+.services h2 {
+  padding-bottom: 15px;
 }
-.parallax {   
-    background-image: url('../img/person-in-white-long-sleeve-shirt-holding-tablet-computer-3740250.jpg');
-    height: 50vh; 
-    padding: 0;
-    margin: 0; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .platform-info{
-     height:40vh;
-     background-color: transparent;
-     font-size:20px
-  }
-  .container-fluid {
-    position: relative;
+
+/* End Services Area */
+
+/* Platform Area */
+
+.services-area.platform {
+  padding: 7rem 0rem;
+}
+.parallax {
+  background-image: url("../img/person-in-white-long-sleeve-shirt-holding-tablet-computer-3740250.jpg");
+  height: 50vh;
+  padding: 0;
+  margin: 0;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.platform-info {
+  height: 40vh;
+  background-color: transparent;
+  font-size: 20px;
+}
+.container-fluid {
+  position: relative;
 }
 
 .container-fluid .numbers {
-    height: 100%;
-    width: 100%;
-    z-index: 1;
-    margin-top: -15vmin;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  margin-top: -15vmin;
 }
 
 .container-fluid .numbers .rect {
-    position: relative;
-    margin-left: 3%;
-    background: #fff;
-    padding: 5px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 15px #333;
-    height: 200px;
-    width: 200px;
-    
+  position: relative;
+  margin-left: 3%;
+  background: #fff;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px #333;
+  height: 200px;
+  width: 200px;
 }
 .container-fluid .numbers .rect .fa {
-    padding: 10px 0px 30px 0px;
-    color: var(--bluish);
-    text-transform: capitalize;  
+  padding: 10px 0px 30px 0px;
+  color: var(--bluish);
+  text-transform: capitalize;
 }
-.container-fluid .numbers .rect:hover{
-    background: var(--primary-color);
-    transition: 0.6s ease; 
-    color: #fff;  
+.container-fluid .numbers .rect:hover {
+  background: var(--primary-color);
+  transition: 0.6s ease;
+  color: #fff;
 }
 
 .rect p {
-    color: var(--bluish);
-    padding: 43% 0%;
+  color: var(--bluish);
+  padding: 43% 0%;
 }
-button.center{
-    margin: 3% 43%;
-}
-
-
-/* end Platform Area */ 
-
-
-/* Footer Area */ 
-
-footer.footer-area{
-    
-    position: relative;
+button.center {
+  margin: 3% 43%;
 }
 
-.row.footer .footer-info{
-    padding: 0%;  
-    height: 40vh;   
+/* end Platform Area */
+
+/* Footer Area */
+
+footer.footer-area {
+  position: relative;
 }
 
-footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+.row.footer .footer-info {
+  padding: 0%;
+  height: 40vh;
 }
 
-footer.footer-area .social a > i{
-    font-size:22px;
-    padding: 3%;
-    color: var(--primary-color);
+footer.footer-area .social h5 {
+  font: normal 500 23px/ 30px var(--roboto);
 }
 
-footer.footer-area .social a:hover > i{
-    color: var(--border-color);
-}
-.contact-info a > i{
-        font-size:22px;
-        padding: 3%;
-        color: var(--primary-color);
-}
-footer.footer-area .up{
-    position: absolute;
-
-    right: 6%;
- bottom: 5%;
- color: var(--primary-color);
-   z-index: 3;
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 3%;
+  color: var(--primary-color);
 }
 
+footer.footer-area .social a:hover > i {
+  color: var(--border-color);
+}
+.contact-info a > i {
+  font-size: 22px;
+  padding: 3%;
+  color: var(--primary-color);
+}
+footer.footer-area .up {
+  position: absolute;
 
+  right: 6%;
+  bottom: 35%;
+  color: var(--primary-color);
+  z-index: 3;
+}
 
-/* End Footer */ 
-
-
-
+/* End Footer */

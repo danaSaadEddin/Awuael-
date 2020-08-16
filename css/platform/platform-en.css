@@ -1,34 +1,47 @@
-.parallax.platform{
-    background-image: url(../../img/0.5x/home@0.5x-100.jpg);
+.parallax.platform {
+  background-image: url(../../img/0.5x/home@0.5x-100.jpg);
 }
- .platform-partners > p ,
- .platform-partners > h5 ,  .platform-targets > p , .platform-targets > h5 {
-    width: 75%;
+.platform-partners > p,
+.platform-partners > h5,
+.platform-targets > p,
+.platform-targets > h5 {
+  width: 75%;
 }
-.company , .holding , .platform-partners , .platform-targets{
-    padding: 5%;
+.company,
+.holding,
+.platform-partners,
+.platform-targets {
+  padding: 5%;
 }
-.container h1{
-    font-weight: 600;
+.container h1 {
+  font-weight: 600;
 }
-.container h1 > span{
-    color: var(--primary-color2);
+.container h1 > span {
+  color: var(--primary-color2);
 }
-.holding .col-lg-3 , .company .col-md-5{
-    background: var(--primary-color2);
-    border-radius: 4px;
-    box-shadow: var(--shadow-color);
+
+.holding .col-lg-3,
+.company .col-md-5 {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: var(--shadow-color);
 }
-.holding .col-lg-3> h3 , .holding .col-lg-3 > p , .company .col-md-5 > h3 , .company .col-md-5 > p{
-    color: #fff;
+
+.holding .col-lg-3 > p,
+.company .col-md-5 > p {
+  color: #000;
 }
-.holding .col-lg-3:hover , .company .col-md-5:hover{
-    box-shadow: var(--box-shadow);
-    transform: scale(1.03);
-    transition: all ease-in .3s;
+.holding .col-lg-3:hover,
+.company .col-md-5:hover {
+  box-shadow: var(--box-shadow);
+  transform: scale(1.03);
+  transition: all ease-in 0.3s;
 }
-.holding .fa > img , .company .fa > img{
-height: 60px;
-width: 60px;
- 
+.holding .fa > img,
+.company .fa > img {
+  height: 60px;
+  width: 60px;
+}
+.orange > h3 {
+  color: var(--primary-color2);
 }
