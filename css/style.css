@@ -9,7 +9,7 @@
 
 /* start navigation */
 .site-banner.home .header_area .main-menu .nav-item .nav-link {
-  color: #fff;
+  color: #000;
 }
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -46,19 +46,19 @@
 /* end navigation */
 
 /* Banner Area */
-.site-main {
+/* .site-main {
   background-image: url(../img/body-bg.png);
-}
+} */
 
 .main {
   padding-top: 5%;
 }
-.site-banner.home {
+/* .site-banner.home {
   background-image: url(/img/0.5x/home@0.5x-100.jpg);
   background-position: center;
   background-size: cover;
-}
-.site-main .site-banner .site-title h3 {
+} */
+/* .site-main .site-banner .site-title h3 {
   font-weight: 500;
 }
 
@@ -89,7 +89,7 @@
 
 /* Services Area */
 
-.site-main .services-area {
+/* .site-main .services-area {
   padding: 7rem 2rem;
 }
 
@@ -130,7 +130,7 @@
 
 .services h2 {
   padding-bottom: 15px;
-}
+}  */
 
 /* End Services Area */
 
@@ -140,17 +140,21 @@
   padding: 7rem 0rem;
 }
 .parallax {
-  background-image: url("../img/person-in-white-long-sleeve-shirt-holding-tablet-computer-3740250.jpg");
-  height: 50vh;
+  background-image: url("../img/web\ english-home.png");
+  height: 55vh;
   padding: 0;
   margin: 0;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.platform-info {
+.site-banner span {
+  color: rgba(204, 139, 40, 1);
+}
+
+/* .platform-info {
   height: 40vh;
   background-color: transparent;
   font-size: 20px;
@@ -193,7 +197,7 @@
 }
 button.center {
   margin: 3% 43%;
-}
+} */
 
 /* end Platform Area */
 

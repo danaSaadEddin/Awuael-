@@ -231,6 +231,9 @@
   .platform-page .about-area > h2 {
     width: 100%;
   }
+  .banner-image .center {
+    width: 100%;
+  }
 
   .footer-area .site-logo img {
     height: 120px;

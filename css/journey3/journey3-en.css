@@ -9,6 +9,7 @@
 
   /* Create the parallax scrolling effect */
   background-position: bottom;
+  background-attachment: fixed;
 }
 .site-banner {
   position: relative;
