@@ -35,13 +35,7 @@
   transition: all ease-in 0.5s;
   box-shadow: var(--box-shadow);
 }
-/* .one{
-  background-image: url(../../img/0.5x/home@0.5x-100.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.one > h2 , .one > p{
-  color: #fff;
-} */
 
-/* end-founder-section */
+.cd-timeline.js-cd-timeline p{
+text-align: justify;
+}

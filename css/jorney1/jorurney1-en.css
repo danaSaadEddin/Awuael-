@@ -72,6 +72,9 @@
   padding-bottom: 20px;
   color: #1e252e;
 }
+.section-1.timeline .text-muted{
+  text-align: justify;
+}
 
 /* timeline-section-1-end */
 /* white space */

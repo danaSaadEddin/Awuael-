@@ -1,5 +1,8 @@
 .parallax.platform {
   background-image: url(../../img/web\ english.png);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
   background-attachment: scroll;
 }
 .platform-partners > p,
@@ -13,6 +16,9 @@
 .platform-partners,
 .platform-targets {
   padding: 5%;
+}
+main p{
+  text-align: justify;
 }
 .container h1 {
   font-weight: 600;
