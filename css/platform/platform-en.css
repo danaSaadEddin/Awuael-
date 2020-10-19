@@ -1,9 +1,11 @@
 .parallax.platform {
   background-image: url(../../img/web\ english.png);
-  background-size: cover;
-  height: 100%;
+  /* background-size: cover; */
+  height: 450px;
   width: 100%;
   background-attachment: scroll;
+  background-position: center;
+  margin: 0 auto;
 }
 .platform-partners > p,
 .platform-partners > h5,

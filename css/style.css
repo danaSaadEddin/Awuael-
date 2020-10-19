@@ -56,17 +56,32 @@
   padding: 7rem 0rem;
 }
 .parallax {
+  /* The image used */
   background-image: url("../img/web\ english-home.png");
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+height: 450px;
+width: 100%;
+margin: 0 auto;
+
   /* Create the parallax scrolling effect */
   background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+/* .parallax {
+  background-image: url("../img/web\ english-home.png"); */
+  /* height: 100%;
+  width: 100%; */
+  /* padding: 0;
+  margin: 0; */
+  /* Create the parallax scrolling effect */
+  /* background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat; */
+  /* background-size: cover; */
+/* } */
 .site-banner span {
   color: rgba(204, 139, 40, 1);
 }

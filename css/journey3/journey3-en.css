@@ -6,7 +6,8 @@
 /* start banner */
 .parallax {
   background-image: url("../../img/time-alarm-clock-alarm-clock-100733.jpg");
-
+  height: 400px;
+  width: 100%;
   /* Create the parallax scrolling effect */
   background-position: bottom;
   background-attachment: fixed;

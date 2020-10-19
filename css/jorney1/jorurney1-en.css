@@ -9,6 +9,8 @@
   /* Create the parallax scrolling effect */
   background-position: center;
   background-attachment: fixed;
+  height: 400px;
+  width: 100%;
 }
 .site-banner {
   position: relative;
