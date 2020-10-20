@@ -1037,7 +1037,7 @@ a,
 .link {
   color: hsl(220, 90%, 56%);
   color: var(--color-primary, #2a6df4);
-  text-decoration: underline;
+  text-decoration: none;
 }
 strong,
 .text-bold {
@@ -1048,7 +1048,7 @@ s {
 }
 u,
 .text-underline {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .text-component {
   --component-body-line-height: calc(

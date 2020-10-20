@@ -114,6 +114,9 @@
       margin: 3% 40%;
     }
   }
+    .footer-area.jo{
+    margin-top: 50vh;
+  }
 }
 
 /* if the viewport is equal to 1910px or less than that */
@@ -141,9 +144,7 @@
   .arabicHomePage {
     overflow-x: hidden;
   }
-  /* .site-main .site-banner.home{
-    background-image: none;
-} */
+
   .main {
     padding-top: 1%;
   }
@@ -204,6 +205,10 @@
     padding-bottom: 10px;
     color: #1e252e;
   }
+  .container.white-space.double-space{
+    height: 100vh;
+    width: 100vh;
+  }
 
   /* timeline-section-1-end */
   /* contact-page-start */
@@ -238,6 +243,9 @@
   .footer-area .site-logo img {
     height: 120px;
     width: 150px;
+  }
+  .footer-area.jo{
+    margin-top: 75vh;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -282,7 +290,7 @@
     padding-bottom: 10px;
     color: #1e252e;
   }
-
+ 
   /* contact-page-start */
   .login-wrapper {
     right: 11%;
@@ -290,14 +298,11 @@
     height: 70%;
     width: 75%;
   }
+
   /* contact-page-end */
 
   /* timeline-section-1-end */
-  /* white space */
-  .container.white-space {
-    height: 50vh;
-    width: 100vh;
-  }
+ 
 
   .site-banner .container h1 {
     color: #1e252e;

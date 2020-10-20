@@ -79,12 +79,10 @@
 }
 
 /* timeline-section-1-end */
-/* white space */
-.container.white-space {
-  height: 25vh;
-  width: 100vh;
-}
+
 
 /* Footer Area */
-
+.footer-area.jo{
+  margin-top: 25vh;
+}
 /* End Footer */
