@@ -17,10 +17,11 @@
 }
 .parallax.platform.ar{
   background-image: url(../../img/web\ Arabic.png);
-  height: 450px;
+  height: 500px;
   width: 98%;
   background-attachment: scroll;
   background-position: center;
+  background-size: cover;
   margin: 0 auto;
 }
 .platform-partners > p,
