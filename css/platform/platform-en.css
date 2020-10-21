@@ -2,7 +2,23 @@
   background-image: url(../../img/web\ english.png);
   /* background-size: cover; */
   height: 450px;
-  width: 100%;
+  width: 98%;
+  background-attachment: scroll;
+  background-position: center;
+  margin: 0 auto;
+}
+.parallax.platform.ger{
+  background-image: url(../../img/web\ German.png);
+  height: 450px;
+  width: 98%;
+  background-attachment: scroll;
+  background-position: center;
+  margin: 0 auto;
+}
+.parallax.platform.ar{
+  background-image: url(../../img/web\ Arabic.png);
+  height: 450px;
+  width: 98%;
   background-attachment: scroll;
   background-position: center;
   margin: 0 auto;
@@ -40,7 +56,9 @@ main p{
   border-radius: 4px;
   box-shadow: var(--shadow-color);
 }
-
+.holding p , .company p{
+  text-align: center;
+}
 .holding .col-lg-3 > p,
 .company .col-md-5 > p {
   color: #000;

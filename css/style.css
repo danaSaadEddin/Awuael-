@@ -46,9 +46,10 @@
 /* end navigation */
 
 /* Banner Area */
-.site-banner .para {
+.site-banner-en .para {
   text-align: justify;
 }
+
 
 /* Platform Area */
 
@@ -59,7 +60,7 @@
   /* The image used */
   background-image: url("../img/web\ english-home.png");
 height: 450px;
-width: 100%;
+width: 98%;
 margin: 0 auto;
 
   /* Create the parallax scrolling effect */
@@ -68,72 +69,30 @@ margin: 0 auto;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
-/* .parallax {
-  background-image: url("../img/web\ english-home.png"); */
-  /* height: 100%;
-  width: 100%; */
-  /* padding: 0;
-  margin: 0; */
-  /* Create the parallax scrolling effect */
-  /* background-attachment: scroll;
+.parallax.platform.ger{
+  background-image: url(../img/web\ German\ home.png);
+  height: 450px;
+  width: 98%;
+  background-attachment: scroll;
   background-position: center;
-  background-repeat: no-repeat; */
-  /* background-size: cover; */
-/* } */
+  margin: 0 auto;
+}
+.parallax.platform.ar{
+  background-image: url(../img/web\ Arabic\ home.png);
+  height: 450px;
+  width: 98%;
+  background-attachment: scroll;
+  background-position: center;
+  margin: 0 auto;
+}
+
+
+
 .site-banner span {
   color: rgba(204, 139, 40, 1);
 }
 
-/* .platform-info {
-  height: 40vh;
-  background-color: transparent;
-  font-size: 20px;
-}
-.container-fluid {
-  position: relative;
-}
 
-.container-fluid .numbers {
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  margin-top: -15vmin;
-}
-
-.container-fluid .numbers .rect {
-  position: relative;
-  margin-left: 3%;
-  background: #fff;
-  padding: 5px;
-  border-radius: 20px;
-  box-shadow: 5px 5px 15px #333;
-  height: 200px;
-  width: 200px;
-}
-.container-fluid .numbers .rect .fa {
-  padding: 10px 0px 30px 0px;
-  color: var(--bluish);
-  text-transform: capitalize;
-}
-.container-fluid .numbers .rect:hover {
-  background: var(--primary-color);
-  transition: 0.6s ease;
-  color: #fff;
-}
-
-.rect p {
-  color: var(--bluish);
-  padding: 43% 0%;
-}
-button.center {
-  margin: 3% 43%;
-} */
-
-/* end Platform Area */
-
-/* Footer Area */
 
 footer.footer-area {
   position: relative;
@@ -166,6 +125,14 @@ footer.footer-area .up {
   position: absolute;
 
   right: 6%;
+  bottom: 35%;
+  color: var(--primary-color);
+  z-index: 3;
+}
+footer.footer-area .up-ar {
+  position: absolute;
+
+  left: 6%;
   bottom: 35%;
   color: var(--primary-color);
   z-index: 3;
