@@ -38,7 +38,17 @@ ul {
   line-height: 2.1;
   top: 4px;
 }
+.contact-info-section.ar .contact-circle{
+  right: 0px;
+}
 .contact-text h3 {
   font-size: 22px;
   margin-top: 8%;
+}
+.auth-form{
+  position: relative;
+}
+.form-group.mb-0.ar button{
+  position: absolute;
+  right: 0px;
 }

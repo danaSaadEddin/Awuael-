@@ -29,7 +29,10 @@
   padding: 1.7rem;
   color: var(--title-color);
 }
-
+.arabicHomePage{  
+  font-family: 'Almarai', sans-serif;
+  letter-spacing: 0!important;   
+}
 .site-banner.home .header_area .main-menu .navbar-nav a:hover {
   background: rgba(204, 139, 40, 1);
   -webkit-background-clip: text;
@@ -131,11 +134,16 @@ footer.footer-area .up {
 }
 footer.footer-area .up-ar {
   position: absolute;
-
-  left: 6%;
+  /* left: 6%; */
   bottom: 35%;
   color: var(--primary-color);
   z-index: 3;
 }
 
+
+
+
 /* End Footer */
+.journey1-ar h2{
+  text-align: right;
+}

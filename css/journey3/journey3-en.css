@@ -40,3 +40,6 @@
 .cd-timeline.js-cd-timeline p{
 text-align: justify;
 }
+.arabicHomePage .cd-timeline__content h2{
+  text-align: right;
+}

@@ -247,6 +247,16 @@
   .footer-area.jo{
     margin-top: 75vh;
   }
+  .contact-info-section.ar{
+    padding-top: 25%;
+  }
+  footer.footer-area .up-ar {
+    position: absolute;
+    right: 6%;
+    bottom: 35%;
+    color: var(--primary-color);
+    z-index: 3;
+  }
 }
 @media only screen and (max-width: 768px) {
   .section-1 .col-md-6 .pray {
