@@ -48,10 +48,9 @@
   right: 300px;
 }
 
-.section-1 .col-md-5 .panel {
+.section-1 .col-md-5 .panel.ar {
   top: 70px;
   padding: 30px;
-
   box-shadow: var(--gradient-color);
   position: absolute;
   right: -100px;
@@ -62,6 +61,20 @@
   transform: translateY(80px);
   transition: 1s all ease;
 }
+.section-1 .col-md-5 .panel {
+  top: 70px;
+  padding: 30px;
+  box-shadow: var(--gradient-color);
+  position: absolute;
+  left: -100px;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 10px;
+  opacity: 1;
+  transform: translateY(80px);
+  transition: 1s all ease;
+}
+
 .section-1 .col-md-5 .panel.three {
   top: 70px;
   padding: 30px;
