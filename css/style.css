@@ -94,7 +94,9 @@ margin: 0 auto;
 .site-banner h1 span {
   color: rgba(204, 139, 40, 1);
 }
-
+.site-banner.home.ar{
+  direction: rtl;
+}
 
 
 footer.footer-area {

@@ -14,12 +14,18 @@
 .site-banner {
   position: relative;
 }
+.site-banner.home.ar{
+  direction: rtl;
+}
 .site-banner .title-text {
   font-size: 3rem;
   position: absolute;
   top: 40%;
   left: 5%;
   color: #fff;
+}
+.site-banner .title-text.arabic {
+  right: 5%;
 }
 .site-banner .container h1 {
   color: #1e252e;

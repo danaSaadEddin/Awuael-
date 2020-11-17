@@ -24,6 +24,9 @@
   background-size: cover;
   margin: 0 auto;
 }
+.site-banner.home.ar{
+  direction: rtl;
+}
 .platform-partners > p,
 .platform-partners > h5,
 .platform-targets > p,

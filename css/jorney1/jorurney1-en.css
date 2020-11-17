@@ -12,7 +12,9 @@
   height: 400px;
   width: 100%;
 }
-
+.site-banner.home.ar{
+  direction: rtl;
+}
 .site-banner {
   position: relative;
 }
@@ -22,6 +24,9 @@
   top: 40%;
   left: 5%;
   color: #fff;
+}
+.site-banner .title-text.arabic {
+  right: 5%;
 }
 .site-banner .container h1 {
   color: #1e252e;
@@ -40,6 +45,7 @@
   height: 140%;
   border-radius: 7px;
   opacity: 0.8;
+  right: 300px;
 }
 
 .section-1 .col-md-5 .panel {
@@ -48,7 +54,7 @@
 
   box-shadow: var(--gradient-color);
   position: absolute;
-  left: -100px;
+  right: -100px;
   background-color: #fff;
   z-index: 1;
   border-radius: 10px;
