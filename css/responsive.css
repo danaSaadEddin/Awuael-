@@ -280,6 +280,16 @@
     transform: translateY(0px);
     transition: 1s all ease;
   }
+  .section-1 .col-md-5 .panel.ar {
+    padding: 3px;
+    top: -20px;
+    opacity: 1;
+    right: -5px;
+    position: relative;
+    transform: translateY(0px);
+    transition: 1s all ease;
+  }
+   
   .section-1 .col-md-5 .panel.three {
     top: -20px;
     padding: 3px;
@@ -307,6 +317,12 @@
     margin: 1% auto;
     height: 70%;
     width: 75%;
+  }
+  .footer-area.jo{
+    margin-top: 0px;
+  }
+  .footer-area.jo.journey1{
+    margin-top: 82vh;
   }
 
   /* contact-page-end */
