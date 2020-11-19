@@ -62,8 +62,8 @@
 .parallax {
   /* The image used */
   background-image: url("../img/web\ english-home.png");
-height: 450px;
-width: 98%;
+height: 410px;
+width: 100%;
 margin: 0 auto;
 
   /* Create the parallax scrolling effect */
@@ -74,16 +74,16 @@ margin: 0 auto;
 }
 .parallax.platform.ger{
   background-image: url(../img/web\ German\ home.png);
-  height: 450px;
-  width: 98%;
+  height: 410px;
+  width: 100%;
   background-attachment: scroll;
   background-position: center;
   margin: 0 auto;
 }
 .parallax.platform.ar{
   background-image: url(../img/web\ Arabic\ home.png);
-  height: 450px;
-  width: 98%;
+  height: 410px;
+  width: 100%;
   background-attachment: scroll;
   background-position: center;
   margin: 0 auto;

@@ -70,6 +70,22 @@
         margin: 5%;
     } */
   @media only screen and (max-width: 768px) {
+/* cover */
+.parallax.platform{
+  /* The image used */
+height: 230px;
+width: 100%;
+
+}
+.parallax.platform.ger{
+  height: 235px;
+  width: 100%;
+}
+.parallax.platform.ar{
+  height: 255px;
+  width: 100%;
+}
+
     .header_area .main-menu .navbar .navbar-brand {
       padding: 0px;
     }
@@ -208,6 +224,21 @@
   .container.white-space.double-space{
     height: 100vh;
     width: 100vh;
+  }
+  /* cover */
+  .parallax.platform{
+    /* The image used */
+  height: 120px;
+  width: 100%;
+
+  }
+  .parallax.platform.ger{
+    height: 130px;
+    width: 100%;
+  }
+  .parallax.platform.ar{
+    height: 130px;
+    width: 100%;
   }
 
   /* timeline-section-1-end */

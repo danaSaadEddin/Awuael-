@@ -1,7 +1,7 @@
 .parallax.platform {
   background-image: url(../../img/web\ english.png);
   /* background-size: cover; */
-  height: 450px;
+  height: 410px;
   width: 98%;
   background-attachment: scroll;
   background-position: center;
@@ -9,16 +9,16 @@
 }
 .parallax.platform.ger{
   background-image: url(../../img/web\ German.png);
-  height: 450px;
-  width: 98%;
+  height: 441px;
+  width: 95%;
   background-attachment: scroll;
   background-position: center;
   margin: 0 auto;
 }
 .parallax.platform.ar{
   background-image: url(../../img/web\ Arabic.png);
-  height: 500px;
-  width: 98%;
+  height:450px;
+  width: 95%;
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
